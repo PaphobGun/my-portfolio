@@ -4,9 +4,9 @@ import StarsBackground from 'src/components/Landing/StarsBackground';
 
 const Landing = () => {
   return (
-    <div className="relative">
+    <div id="home" className="relative">
       <StarsBackground />
-      <div className="font-sans container px-8 md:px-24 lg:px-56 text-white transform -translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
+      <div className="font-sans container px-8 md:px-12 lg:px-56 text-white transform -translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2">
         <div className="font-mono text-pink-500 mb-6">Hi, my name is</div>
         <div className="font-bold text-gray-400 text-4xl md:text-4xl lg:text-6xl">
           Paphob Aneakpoonsinsuk.
@@ -18,9 +18,12 @@ const Landing = () => {
           I'm a software developer based in Bangkok, specializing in building
           websites, applications, and everything in between.
         </div>
-        <button className="focus:outline-none font-mono mt-8 bg-transparent py-4 px-6 border-2 rounded border-pink-500  text-pink-500 hover:opacity-50">
+        <a
+          href="mailto:paphob.a@gmail.com"
+          className="inline-block focus:outline-none font-mono mt-8 bg-transparent py-4 px-6 border-2 rounded border-pink-500  text-pink-500 hover:opacity-50"
+        >
           Contact Me
-        </button>
+        </a>
       </div>
     </div>
   );
