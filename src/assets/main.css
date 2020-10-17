@@ -19199,6 +19199,10 @@ video {
   transition-property: transform;
 }
 
+.transition-height {
+  transition-property: height;
+}
+
 .ease-linear {
   transition-timing-function: linear;
 }
@@ -19328,6 +19332,14 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+.h-with-header {
+  height: calc(100vh - 16rem);
+}
+
+.active-nav {
+  color: #ed64a6;
 }
 
 @media (min-width: 640px) {
@@ -37951,6 +37963,10 @@ video {
 
   .sm\:transition-transform {
     transition-property: transform;
+  }
+
+  .sm\:transition-height {
+    transition-property: height;
   }
 
   .sm\:ease-linear {
@@ -56677,6 +56693,10 @@ video {
     transition-property: transform;
   }
 
+  .md\:transition-height {
+    transition-property: height;
+  }
+
   .md\:ease-linear {
     transition-timing-function: linear;
   }
@@ -75401,6 +75421,10 @@ video {
     transition-property: transform;
   }
 
+  .lg\:transition-height {
+    transition-property: height;
+  }
+
   .lg\:ease-linear {
     transition-timing-function: linear;
   }
@@ -94123,6 +94147,10 @@ video {
 
   .xl\:transition-transform {
     transition-property: transform;
+  }
+
+  .xl\:transition-height {
+    transition-property: height;
   }
 
   .xl\:ease-linear {
