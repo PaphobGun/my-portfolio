@@ -15,7 +15,7 @@ const About = () => {
             build products that provide pixel-perfect, performant experiences.
           </div>
         </div>
-        <div className="text-6xl">img</div>
+        <div className="text-6xl">img here</div>
       </div>
     </section>
   );
