@@ -13850,6 +13850,27 @@ video {
   left: 0;
 }
 
+.inset-1 {
+  top: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+.inset-2 {
+  top: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.inset-3 {
+  top: 1.5rem;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+
 .inset-auto {
   top: auto;
   right: auto;
@@ -13872,6 +13893,36 @@ video {
 .inset-x-0 {
   right: 0;
   left: 0;
+}
+
+.inset-y-1 {
+  top: 0.5rem;
+  bottom: 0.5rem;
+}
+
+.inset-x-1 {
+  right: 0.5rem;
+  left: 0.5rem;
+}
+
+.inset-y-2 {
+  top: 1rem;
+  bottom: 1rem;
+}
+
+.inset-x-2 {
+  right: 1rem;
+  left: 1rem;
+}
+
+.inset-y-3 {
+  top: 1.5rem;
+  bottom: 1.5rem;
+}
+
+.inset-x-3 {
+  right: 1.5rem;
+  left: 1.5rem;
 }
 
 .inset-y-auto {
@@ -13908,6 +13959,54 @@ video {
 
 .left-0 {
   left: 0;
+}
+
+.top-1 {
+  top: 0.5rem;
+}
+
+.right-1 {
+  right: 0.5rem;
+}
+
+.bottom-1 {
+  bottom: 0.5rem;
+}
+
+.left-1 {
+  left: 0.5rem;
+}
+
+.top-2 {
+  top: 1rem;
+}
+
+.right-2 {
+  right: 1rem;
+}
+
+.bottom-2 {
+  bottom: 1rem;
+}
+
+.left-2 {
+  left: 1rem;
+}
+
+.top-3 {
+  top: 1.5rem;
+}
+
+.right-3 {
+  right: 1.5rem;
+}
+
+.bottom-3 {
+  bottom: 1.5rem;
+}
+
+.left-3 {
+  left: 1.5rem;
 }
 
 .top-auto {
@@ -19100,6 +19199,10 @@ video {
   transition-property: transform;
 }
 
+.transition-height {
+  transition-property: height;
+}
+
 .ease-linear {
   transition-timing-function: linear;
 }
@@ -19229,6 +19332,14 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+.h-with-header {
+  height: calc(100vh - 16rem);
+}
+
+.active-nav {
+  color: #ed64a6;
 }
 
 @media (min-width: 640px) {
@@ -32505,6 +32616,27 @@ video {
     left: 0;
   }
 
+  .sm\:inset-1 {
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .sm\:inset-2 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .sm\:inset-3 {
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
   .sm\:inset-auto {
     top: auto;
     right: auto;
@@ -32527,6 +32659,36 @@ video {
   .sm\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .sm\:inset-y-1 {
+    top: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .sm\:inset-x-1 {
+    right: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .sm\:inset-y-2 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .sm\:inset-x-2 {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .sm\:inset-y-3 {
+    top: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .sm\:inset-x-3 {
+    right: 1.5rem;
+    left: 1.5rem;
   }
 
   .sm\:inset-y-auto {
@@ -32563,6 +32725,54 @@ video {
 
   .sm\:left-0 {
     left: 0;
+  }
+
+  .sm\:top-1 {
+    top: 0.5rem;
+  }
+
+  .sm\:right-1 {
+    right: 0.5rem;
+  }
+
+  .sm\:bottom-1 {
+    bottom: 0.5rem;
+  }
+
+  .sm\:left-1 {
+    left: 0.5rem;
+  }
+
+  .sm\:top-2 {
+    top: 1rem;
+  }
+
+  .sm\:right-2 {
+    right: 1rem;
+  }
+
+  .sm\:bottom-2 {
+    bottom: 1rem;
+  }
+
+  .sm\:left-2 {
+    left: 1rem;
+  }
+
+  .sm\:top-3 {
+    top: 1.5rem;
+  }
+
+  .sm\:right-3 {
+    right: 1.5rem;
+  }
+
+  .sm\:bottom-3 {
+    bottom: 1.5rem;
+  }
+
+  .sm\:left-3 {
+    left: 1.5rem;
   }
 
   .sm\:top-auto {
@@ -37753,6 +37963,10 @@ video {
 
   .sm\:transition-transform {
     transition-property: transform;
+  }
+
+  .sm\:transition-height {
+    transition-property: height;
   }
 
   .sm\:ease-linear {
@@ -51130,6 +51344,27 @@ video {
     left: 0;
   }
 
+  .md\:inset-1 {
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .md\:inset-2 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .md\:inset-3 {
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
   .md\:inset-auto {
     top: auto;
     right: auto;
@@ -51152,6 +51387,36 @@ video {
   .md\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .md\:inset-y-1 {
+    top: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .md\:inset-x-1 {
+    right: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .md\:inset-y-2 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .md\:inset-x-2 {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .md\:inset-y-3 {
+    top: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .md\:inset-x-3 {
+    right: 1.5rem;
+    left: 1.5rem;
   }
 
   .md\:inset-y-auto {
@@ -51188,6 +51453,54 @@ video {
 
   .md\:left-0 {
     left: 0;
+  }
+
+  .md\:top-1 {
+    top: 0.5rem;
+  }
+
+  .md\:right-1 {
+    right: 0.5rem;
+  }
+
+  .md\:bottom-1 {
+    bottom: 0.5rem;
+  }
+
+  .md\:left-1 {
+    left: 0.5rem;
+  }
+
+  .md\:top-2 {
+    top: 1rem;
+  }
+
+  .md\:right-2 {
+    right: 1rem;
+  }
+
+  .md\:bottom-2 {
+    bottom: 1rem;
+  }
+
+  .md\:left-2 {
+    left: 1rem;
+  }
+
+  .md\:top-3 {
+    top: 1.5rem;
+  }
+
+  .md\:right-3 {
+    right: 1.5rem;
+  }
+
+  .md\:bottom-3 {
+    bottom: 1.5rem;
+  }
+
+  .md\:left-3 {
+    left: 1.5rem;
   }
 
   .md\:top-auto {
@@ -56378,6 +56691,10 @@ video {
 
   .md\:transition-transform {
     transition-property: transform;
+  }
+
+  .md\:transition-height {
+    transition-property: height;
   }
 
   .md\:ease-linear {
@@ -69755,6 +70072,27 @@ video {
     left: 0;
   }
 
+  .lg\:inset-1 {
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .lg\:inset-2 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .lg\:inset-3 {
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
   .lg\:inset-auto {
     top: auto;
     right: auto;
@@ -69777,6 +70115,36 @@ video {
   .lg\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .lg\:inset-y-1 {
+    top: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .lg\:inset-x-1 {
+    right: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .lg\:inset-y-2 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .lg\:inset-x-2 {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .lg\:inset-y-3 {
+    top: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .lg\:inset-x-3 {
+    right: 1.5rem;
+    left: 1.5rem;
   }
 
   .lg\:inset-y-auto {
@@ -69813,6 +70181,54 @@ video {
 
   .lg\:left-0 {
     left: 0;
+  }
+
+  .lg\:top-1 {
+    top: 0.5rem;
+  }
+
+  .lg\:right-1 {
+    right: 0.5rem;
+  }
+
+  .lg\:bottom-1 {
+    bottom: 0.5rem;
+  }
+
+  .lg\:left-1 {
+    left: 0.5rem;
+  }
+
+  .lg\:top-2 {
+    top: 1rem;
+  }
+
+  .lg\:right-2 {
+    right: 1rem;
+  }
+
+  .lg\:bottom-2 {
+    bottom: 1rem;
+  }
+
+  .lg\:left-2 {
+    left: 1rem;
+  }
+
+  .lg\:top-3 {
+    top: 1.5rem;
+  }
+
+  .lg\:right-3 {
+    right: 1.5rem;
+  }
+
+  .lg\:bottom-3 {
+    bottom: 1.5rem;
+  }
+
+  .lg\:left-3 {
+    left: 1.5rem;
   }
 
   .lg\:top-auto {
@@ -75003,6 +75419,10 @@ video {
 
   .lg\:transition-transform {
     transition-property: transform;
+  }
+
+  .lg\:transition-height {
+    transition-property: height;
   }
 
   .lg\:ease-linear {
@@ -88380,6 +88800,27 @@ video {
     left: 0;
   }
 
+  .xl\:inset-1 {
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .xl\:inset-2 {
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .xl\:inset-3 {
+    top: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
   .xl\:inset-auto {
     top: auto;
     right: auto;
@@ -88402,6 +88843,36 @@ video {
   .xl\:inset-x-0 {
     right: 0;
     left: 0;
+  }
+
+  .xl\:inset-y-1 {
+    top: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .xl\:inset-x-1 {
+    right: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .xl\:inset-y-2 {
+    top: 1rem;
+    bottom: 1rem;
+  }
+
+  .xl\:inset-x-2 {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .xl\:inset-y-3 {
+    top: 1.5rem;
+    bottom: 1.5rem;
+  }
+
+  .xl\:inset-x-3 {
+    right: 1.5rem;
+    left: 1.5rem;
   }
 
   .xl\:inset-y-auto {
@@ -88438,6 +88909,54 @@ video {
 
   .xl\:left-0 {
     left: 0;
+  }
+
+  .xl\:top-1 {
+    top: 0.5rem;
+  }
+
+  .xl\:right-1 {
+    right: 0.5rem;
+  }
+
+  .xl\:bottom-1 {
+    bottom: 0.5rem;
+  }
+
+  .xl\:left-1 {
+    left: 0.5rem;
+  }
+
+  .xl\:top-2 {
+    top: 1rem;
+  }
+
+  .xl\:right-2 {
+    right: 1rem;
+  }
+
+  .xl\:bottom-2 {
+    bottom: 1rem;
+  }
+
+  .xl\:left-2 {
+    left: 1rem;
+  }
+
+  .xl\:top-3 {
+    top: 1.5rem;
+  }
+
+  .xl\:right-3 {
+    right: 1.5rem;
+  }
+
+  .xl\:bottom-3 {
+    bottom: 1.5rem;
+  }
+
+  .xl\:left-3 {
+    left: 1.5rem;
   }
 
   .xl\:top-auto {
@@ -93628,6 +94147,10 @@ video {
 
   .xl\:transition-transform {
     transition-property: transform;
+  }
+
+  .xl\:transition-height {
+    transition-property: height;
   }
 
   .xl\:ease-linear {

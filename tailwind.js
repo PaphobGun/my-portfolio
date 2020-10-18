@@ -299,6 +299,9 @@ module.exports = {
     inset: {
       0: '0',
       auto: 'auto',
+      1: '0.5rem',
+      2: '1rem',
+      3: '1.5rem',
       '1/2': '50%',
     },
     letterSpacing: {
@@ -578,6 +581,7 @@ module.exports = {
       opacity: 'opacity',
       shadow: 'box-shadow',
       transform: 'transform',
+      height: 'height',
     },
     transitionTimingFunction: {
       linear: 'linear',

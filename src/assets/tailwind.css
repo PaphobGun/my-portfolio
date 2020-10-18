@@ -1,3 +1,11 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.h-with-header {
+  height: calc(100vh - 16rem);
+}
+
+.active-nav {
+  color: #ed64a6;
+}
