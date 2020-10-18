@@ -2,9 +2,9 @@ import React from 'react';
 
 const Work = () => {
   return (
-    <div id="work" className="h-screen">
+    <section id="work" className="h-screen pt-16 bg-gray-300">
       Work
-    </div>
+    </section>
   );
 };
 
